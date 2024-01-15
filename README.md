@@ -1,7 +1,7 @@
 <h1 align="center"> Explorando Galáxias </h1>
 
 <p align="center">
-  Projeto simples desenvolvido para estudar HTML e CSS, com foco em compartilhar informações fascinantes sobre galáxias.
+  Projeto simples desenvolvido para estudar HTML, CSS e Grid, com foco em compartilhar informações fascinantes sobre galáxias.
 </p>
 
 <p align="center">
@@ -26,10 +26,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML
 - CSS
+- Grid CSS
 
 ## 💻 Projeto
 
-O projeto consiste em compartilhar informações interessantes sobre galáxias, oferecendo uma experiência simples e educativa. Ideal para iniciantes que estão estudando HTML e CSS.
+O projeto consiste em compartilhar informações interessantes sobre galáxias, oferecendo uma experiência simples e educativa, utilizando também as funcionalidades do Grid CSS.
 
 - [Acesse o Projeto online](https://guedescss.github.io/galaxies-stage03/)
 
