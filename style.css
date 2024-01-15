@@ -8,7 +8,6 @@
     font-family: 'Mulish', sans-serif;
 }
 
-
 body {
     background: #121214;
     padding: 72px 104px;
@@ -20,7 +19,6 @@ header h1 {
     color: #02799D;
     font-size: 58px;
     font-weight: 900;
-
 }
 
 header p {
@@ -28,13 +26,11 @@ header p {
     font-size: 32px;
     font-weight: 600;
     margin-bottom: 62px;
-
 }
 
 main {
     display: grid;
     grid-template-columns: repeat(3, 370px);
-
     gap: 48px 60px;
 }
 
@@ -50,7 +46,6 @@ main {
     font-size: 35px;
     font-weight: 900;
     padding: 23px;
-    
 }
 
 .card p {
@@ -60,3 +55,27 @@ main {
     padding: 0% 32px 32px;
 }
 
+@media (max-width: 768px) {
+    body {
+        padding: 20px; /* Ajuste o espaÃ§amento conforme necessÃĄrio */
+    }
+
+    main {
+        grid-template-columns: 1fr; /* Uma coluna para telas menores */
+        gap: 20px;
+    }
+
+    .card {
+        padding: 0; /* Removendo o padding geral */
+    }
+
+    .card h2 {
+        font-size: 2em; /* Ajuste o tamanho da fonte conforme necessÃĄrio */
+        padding: 15px;
+    }
+
+    .card p {
+        font-size: 1em;
+        padding: 10px;
+    }
+}
